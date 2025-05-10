@@ -1,0 +1,72 @@
+# Rainfall Analysis and Prediction in India
+
+This project analyzes historical rainfall data for India (1901-2015) and applies statistical and machine learning techniques to understand trends, anomalies, and make predictions.
+
+## Features
+
+- **Data Visualization:**  
+  - Annual, monthly, and seasonal rainfall trends using interactive Plotly charts.
+  - Rolling averages to assess climate change impact.
+  - Anomaly detection for years and months with unusual rainfall.
+  - Clustering of years based on rainfall patterns.
+
+- **Statistical Analysis:**  
+  - Identification of drought and extreme rainfall years.
+  - Correlation analysis between seasonal and annual rainfall.
+
+- **Machine Learning:**  
+  - Anomaly detection using Isolation Forest.
+  - Clustering using KMeans.
+  - Rainfall forecasting using Facebook Prophet.
+  - (Optional) Binary classification: Predicting rain/no rain for a given month.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Install required packages:
+  ```
+  pip install pandas plotly scikit-learn prophet
+  ```
+
+### Data
+
+- The project uses the file:  
+  `rainfall_area-wt_India_1901-2015.csv`  
+  Ensure this file is in the project directory.
+
+### Usage
+
+1. Open `Main.ipynb` in Visual Studio Code or Jupyter Notebook.
+2. Run the cells sequentially to:
+   - Load and explore the data.
+   - Visualize rainfall trends.
+   - Detect anomalies and perform clustering.
+   - Forecast future rainfall using Prophet.
+   - (Optional) Run ML models for rain/no rain prediction.
+
+## Project Structure
+
+- `Main.ipynb` — Main notebook with all analysis and code.
+- `rainfall_area-wt_India_1901-2015.csv` — Historical rainfall dataset.
+
+## Results
+
+- Interactive charts for rainfall trends and anomalies.
+- Identification of drought/extreme years.
+- Clusters of dry, normal, and wet years.
+- Rainfall forecasts for the next 20 years.
+
+## License
+
+This project is for educational and research purposes.
+
+---
+
+**Author:**  
+[Your Name]
+
+**Acknowledgements:**  
+- Data source: [IMD or relevant source]
+- Libraries: pandas, plotly, scikit-learn, prophet
